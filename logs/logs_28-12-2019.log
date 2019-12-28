@@ -1,0 +1,62 @@
+2019-12-28 22:56:42.125 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 10:56:42 PM
+2019-12-28 22:56:48.707 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables []
+2019-12-28 22:56:48.712 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Inflating new tables.
+2019-12-28 22:56:48.712 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - CREATE TABLE BOOK (id varchar(200) primary key,title varchar(200),author varchar(200),publisher varchar(100),isAvail boolean default true)
+2019-12-28 22:56:48.713 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - CREATE TABLE MEMBER (id varchar(200) primary key,name varchar(200),mobile varchar(20),email varchar(100))
+2019-12-28 22:56:48.713 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - CREATE TABLE ISSUE (bookID varchar(200) primary key,memberID varchar(200),issueTime timestamp default CURRENT_TIMESTAMP,renew_count integer default 0,FOREIGN KEY (bookID) REFERENCES BOOK(id),FOREIGN KEY (memberID) REFERENCES MEMBER(id))
+2019-12-28 22:56:48.714 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - CREATE TABLE MAIL_SERVER_INFO (server_name varchar(255),server_port integer,user_email varchar(1024),user_password varchar(1024),ssl_enabled boolean)
+2019-12-28 22:56:57.766 [JavaFX Application Thread] INFO  library.assistant.ui.login.LoginController - User successfully logged in admin
+2019-12-28 22:58:02.621 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 10:56:42 PM. Used for 1577554082621 ms
+2019-12-28 23:01:06.190 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:01:06 PM
+2019-12-28 23:01:08.778 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:01:08.781 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:01:12.757 [JavaFX Application Thread] INFO  library.assistant.ui.login.LoginController - User successfully logged in admin
+2019-12-28 23:03:57.463 [JavaFX Application Thread] INFO  library.assistant.exceptions.ExceptionUtil - INSERT INTO ISSUE(memberID,bookID) VALUES ('1','8') and UPDATE BOOK SET isAvail = false WHERE id = '8'
+2019-12-28 23:04:44.532 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:01:06 PM. Used for 1577554484530 ms
+2019-12-28 23:06:59.690 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:06:59 PM
+2019-12-28 23:07:02.418 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:07:02.422 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:07:33.714 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:07:33 PM
+2019-12-28 23:07:35.866 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:07:35.870 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:08:03.644 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:08:03 PM
+2019-12-28 23:08:05.699 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:08:05.703 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:08:08.770 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:08:03 PM. Used for 1577554688770 ms
+2019-12-28 23:08:40.382 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:08:40 PM
+2019-12-28 23:08:42.286 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:08:42.289 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:08:48.385 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:08:40 PM. Used for 1577554728385 ms
+2019-12-28 23:09:35.072 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:09:35 PM
+2019-12-28 23:09:37.939 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:09:37.944 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:09:46.531 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:09:35 PM. Used for 1577554786531 ms
+2019-12-28 23:10:17.194 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:10:17 PM
+2019-12-28 23:10:19.159 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:10:19.163 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:10:32.268 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:10:17 PM. Used for 1577554832268 ms
+2019-12-28 23:10:50.144 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:10:50 PM
+2019-12-28 23:10:52.255 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:10:52.259 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:11:06.536 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:10:50 PM. Used for 1577554866536 ms
+2019-12-28 23:11:36.133 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:11:36 PM
+2019-12-28 23:11:38.159 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:11:38.163 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:11:44.504 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:11:36 PM. Used for 1577554904504 ms
+2019-12-28 23:11:52.106 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:11:52 PM
+2019-12-28 23:11:54.129 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:11:54.132 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:11:56.413 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:11:52 PM. Used for 1577554916413 ms
+2019-12-28 23:12:09.573 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:12:09 PM
+2019-12-28 23:12:11.537 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:12:11.541 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:12:18.755 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:12:09 PM. Used for 1577554938755 ms
+2019-12-28 23:12:30.677 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:12:30 PM
+2019-12-28 23:12:32.595 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:12:32.599 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:12:40.129 [Thread-8] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:12:30 PM. Used for 1577554960129 ms
+2019-12-28 23:12:51.053 [main] INFO  library.assistant.ui.main.Main - Library Manager launched on 28-12-2019 11:12:51 PM
+2019-12-28 23:12:53.148 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Already loaded tables [issue, book, member, mail_server_info]
+2019-12-28 23:12:53.152 [Thread-6] INFO  library.assistant.exceptions.ExceptionUtil - Tables are already loaded
+2019-12-28 23:13:01.776 [JavaFX Application Thread] INFO  library.assistant.ui.login.LoginController - User successfully logged in admin
+2019-12-28 23:13:28.661 [Thread-11] INFO  library.assistant.ui.main.Main - Library Manager is closing on 28-12-2019 11:12:51 PM. Used for 1577555008661 ms
