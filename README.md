@@ -1,4 +1,8 @@
 # Material Design Library Management Software using JavaFX
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+</br>
+
 Website: https://nisiddharth.github.io/Library-Manager/
 
 What started as a test project for learning Material Designing in JavaFX has turned up being a full fledged Library Management System.
