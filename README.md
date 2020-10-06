@@ -8,7 +8,7 @@ Website: https://nisiddharth.github.io/Library-Manager/
 What started as a test project for learning Material Designing in JavaFX has turned up being a full fledged Library Management System.
   
 ## Special Features
-* One-click database export
+* One-click database export.
 * Notify overdue via email.
 * Rich text email notification content.
 * AES Encryption for Mail Server Configuration - AES/CBC/PKCS5Padding
@@ -28,4 +28,4 @@ What started as a test project for learning Material Designing in JavaFX has tur
 
 ## Issues
 * Enable unsafe email clients in Google account security settings before using your Gmail account to send email.
-* Currently no other issues are known. Feel free to notify if you find one :)
+* Currently no other issues are known. Feel free to notify ,if you find one :)
