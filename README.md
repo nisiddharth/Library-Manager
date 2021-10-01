@@ -13,9 +13,8 @@ What started as a test project for learning Material Designing in JavaFX has tur
 * Rich text email notification content.
 * AES Encryption for Mail Server Configuration - AES/CBC/PKCS5Padding
 ## Default Login Credentials
-| Username | Password |
-| -------- | -------- |
-| admin    | admin    |
+**Username:** admin <br>
+**Password:** admin
 
 ## Libraries Used
   * [JFoenix](https://github.com/jfoenixadmin/JFoenix) - JavaFX Material Design Library
@@ -29,3 +28,6 @@ What started as a test project for learning Material Designing in JavaFX has tur
 ## Issues
 * Enable unsafe email clients in Google account security settings before using your Gmail account to send email.
 * Currently no other issues are known. Feel free to notify ,if you find one :)
+
+## Thank You!
+ Pull requests are welcomed!
